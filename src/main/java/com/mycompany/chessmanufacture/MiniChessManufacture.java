@@ -1,10 +1,10 @@
-package chessmanufacture;
+package com.mycompany.chessmanufacture;
 
-import chess.Chess;
-import chess.MiniChessIvory;
-import chess.MiniChessWood;
-import constants.Constants;
-import myexception.MyException;
+import com.mycompany.chess.Chess;
+import com.mycompany.chess.MiniChessIvory;
+import com.mycompany.chess.MiniChessWood;
+import com.mycompany.material.Material;
+import com.mycompany.myexception.MyException;
 
 public class MiniChessManufacture extends ChessManufacture {
 
@@ -21,9 +21,9 @@ public class MiniChessManufacture extends ChessManufacture {
     }
 
     public Chess createChess(String item) throws MyException{
-        if (item.equals(Constants.MATERIAL_1)) {
+        if (item.equals(Material.WOOD)) {
             return new MiniChessWood();
-        } else if (item.equals(Constants.MATERIAL_2)) {
+        } else if (item.equals(Material.IVORY)) {
             return new MiniChessIvory();
         } else {
                 throw new MyException();

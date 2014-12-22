@@ -1,11 +1,11 @@
-package chess;
+package com.mycompany.chess;
 
-import constants.Constants;
+import com.mycompany.material.Material;
 
 public class MiniChessWood extends Chess{
     public MiniChessWood(){
         name="Mini-sized wood chess";
-        material=Constants.MATERIAL_1;
+        material=Material.WOOD;
         size=3;
     }  
     public void cut(){

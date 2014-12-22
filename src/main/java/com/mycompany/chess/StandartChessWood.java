@@ -1,11 +1,11 @@
-package chess;
+package com.mycompany.chess;
 
-import constants.Constants;
+import com.mycompany.material.Material;
 
 public class StandartChessWood extends Chess{
     public StandartChessWood(){
         name="Standard size wood chess";
-        material=Constants.MATERIAL_1;
+        material=Material.WOOD;
         size=7;
     }  
     public void cut(){

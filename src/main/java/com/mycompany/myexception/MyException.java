@@ -1,4 +1,4 @@
-package myexception;
+package com.mycompany.myexception;
 
 public class MyException extends Exception {
 

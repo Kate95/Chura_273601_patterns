@@ -1,4 +1,4 @@
-package chess;
+package com.mycompany.chess;
 
 public abstract class Chess {
 

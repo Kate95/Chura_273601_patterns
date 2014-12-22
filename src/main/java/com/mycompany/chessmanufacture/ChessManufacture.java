@@ -1,7 +1,7 @@
-package chessmanufacture;
+package com.mycompany.chessmanufacture;
 
-import chess.Chess;
-import myexception.MyException;
+import com.mycompany.chess.Chess;
+import com.mycompany.myexception.MyException;
 
 public abstract class ChessManufacture {
 

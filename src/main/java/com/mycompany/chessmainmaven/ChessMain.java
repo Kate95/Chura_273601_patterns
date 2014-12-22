@@ -1,10 +1,10 @@
 package com.mycompany.chessmainmaven;
 
-import chess.Chess;
-import chessmanufacture.ChessManufacture;
-import chessmanufacture.MiniChessManufacture;
-import chessmanufacture.StandartChessManufacture;
-import myexception.MyException;
+import com.mycompany.chess.Chess;
+import com.mycompany.chessmanufacture.ChessManufacture;
+import com.mycompany.chessmanufacture.MiniChessManufacture;
+import com.mycompany.chessmanufacture.StandartChessManufacture;
+import com.mycompany.myexception.MyException;
 
 public class ChessMain {
 
